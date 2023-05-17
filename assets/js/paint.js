@@ -1,11 +1,16 @@
 function configureListeners() {
-    let images = // select img elements  
+    let images = new image();
+    images.src = ./assets/images/paint.png;
 
 
-     for (var i = 0; i < images.length; i++) {        
+     for (var i = 0; i < images.length; i++) {      
+        gallery.appendChild(imgArray[i]);  
+
         // iterate over images and add mouseover event listeners      
     } 
+
 }
+
 
 function addOpacity(event) {
     // add appropriate CSS class
